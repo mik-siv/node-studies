@@ -1,0 +1,26 @@
+{
+  "name": "studies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:classic-singleton": "ts-node singleton/classic-singleton/use-case.ts",
+    "watch:caching-singleton": "ts-node singleton/caching-singleton/use-case.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miksiv/node-studies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miksiv/node-studies/issues"
+  },
+  "homepage": "https://github.com/miksiv/node-studies#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  }
+}
