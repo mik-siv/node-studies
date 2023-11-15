@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:classic-singleton": "ts-node singleton/classic-singleton/use-case.ts",
-    "watch:caching-singleton": "ts-node singleton/caching-singleton/use-case.ts"
+    "classic-singleton": "ts-node singleton/classic-singleton/use-case.ts",
+    "caching-singleton": "ts-node singleton/caching-singleton/use-case.ts",
+    "dependency-injection": "ts-node dependency-injection/dependency-injection.ts"
   },
   "repository": {
     "type": "git",
