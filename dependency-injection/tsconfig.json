@@ -1,0 +1,11 @@
+{
+  "outDir": "./dist",
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "nodenext",
+    "target": "es5"
+  }
+}

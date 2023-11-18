@@ -18,7 +18,7 @@ class ConsoleLogger implements Logger {
 }
 
 // Create a dependency container
-class DependencyContainer {
+export class DependencyContainer {
     private readonly dependencies = new Map<string, any>();
 
     register<T>(interfaceName: string, implementation: T): void {
