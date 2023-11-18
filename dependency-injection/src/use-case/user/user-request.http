@@ -1,0 +1,25 @@
+### POST user
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "user": "Bob"
+}
+
+### GET user list
+GET http://localhost:3000/user
+
+### GET one user
+GET http://localhost:3000/user/Bob
+
+### PATCH user
+PATCH http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "user": "Bob",
+  "updatedUser": "Robert"
+}
+
+### DELETE user
+DELETE http://localhost:3000/user/Pete
