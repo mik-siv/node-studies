@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "classic-singleton": "ts-node singleton/classic-singleton/use-case.ts",
-    "caching-singleton": "ts-node singleton/caching-singleton/use-case.ts",
-    "dependency-injection": "ts-node dependency-injection/src/dependency-injection.ts",
-    "di:run": "tsc --outDir ./dist/dependency-injection --project ./dependency-injection && node dist/dependency-injection/use-case/user/user.module.js"
+    "classic-singleton": "ts-node apps/singleton/classic-singleton/use-case.ts",
+    "caching-singleton": "ts-node apps/singleton/caching-singleton/use-case.ts",
+    "dependency-injection": "ts-node apps/dependency-injection/src/dependency-injection.ts",
+    "di:run": "tsc --outDir ./dist/dependency-injection --project apps/dependency-injection && node dist/dependency-injection/use-case/user/user.module.js"
   },
   "repository": {
     "type": "git",
