@@ -1,5 +1,6 @@
 import {UserRepositoryInterface} from "./interfaces/user-repository.interface";
 
+//repository takes care of the data operations, in our case will just be an array with some API
 export class UserRepository implements UserRepositoryInterface {
     collection: string[];
 

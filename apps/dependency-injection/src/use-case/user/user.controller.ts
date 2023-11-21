@@ -1,6 +1,7 @@
 import {UserServiceInterface} from './interfaces/user-service.interface';
 import {Router, Response, Request} from 'express';
 
+// A controller manages the API routes of our application
 export class UserController {
     userRouter: Router;
 
@@ -59,6 +60,10 @@ export class UserController {
         }
     };
 
+    /*
+    To help Express's router to work with a class,
+    we need to bind the routes to the corresponding functions on start
+     */
     private initializeRoutes() {
         this.userRouter.get('/', this.getAllUsers);
         this.userRouter.get('/:id', this.getUser);

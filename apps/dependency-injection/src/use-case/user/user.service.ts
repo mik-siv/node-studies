@@ -1,6 +1,7 @@
 import {UserRepositoryInterface} from "./interfaces/user-repository.interface";
 import {UserServiceInterface} from "./interfaces/user-service.interface";
 
+//Service layer will take care of business logic, currently will just fetch data from repository
 export class UserService implements UserServiceInterface {
     constructor(private readonly repository: UserRepositoryInterface) {
     }
